@@ -1,0 +1,46 @@
+name: urban-planning
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - pandas
+  - geopandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - shapely
+  - fiona
+  - pyproj
+  - rasterio
+  - contextily
+  - folium
+  - ipywidgets
+  - ipyleaflet
+  - osmnx
+  - networkx
+  - requests
+  - openpyxl
+  - xlrd
+  - pip:
+    - cenpy
+    - census
+    - pygris
+    - esridump
+    - mapclassify
+    - rasterstats
+    - pysal
+    - libpysal
+    - esda
+    - pointpats
+    - inequality
+    - segregation
+    - momepy
+    - overpy
